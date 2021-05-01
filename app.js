@@ -1,8 +1,8 @@
 Discord = require('discord.js');
 Bot = new Discord.Client();
-Prefix = ("Hey System, ");
-Prefix2 = ("8E!");
-Token = ("NzkxMDc3NzkwNDIxMzUyNDY4.X-J6mg.QVZEE8easKV-gIZiKagrFlaRd6Y");
+Prefix = ("PREFIX 1");
+Prefix2 = ('PREFIX 2');
+Token = ('TOKEN');
 Operations = ("Yes");
 Admin1 = ("Troy D. Moon");
 Admin2 = ("xxSShadow");
