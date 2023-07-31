@@ -27,7 +27,7 @@ Bot.once('ready', () => {
     console.info(`===Info===`)
     console.info(`Name: ${Bot.user.username}`);
     console.info(`Bot Status: Online`);
-    console.info(`Admin1: Troy D. Moon`);
+    console.info(`Admin1: Ginger McFerren`);
     console.info(`Admin2: xxSShadow`);
     console.info(`Bot is now Operational.`);
     console.info(`Licenced 8E Product`);
@@ -101,5 +101,4 @@ Bot.on('message', msg => {
 });
 
 Bot.login(Token);
-// Copyright Belongs to xxSShadow, Troy D. Moon, and the 8E Development Team
 // this is a Licenced 8E Product.
