@@ -49,7 +49,7 @@ Bot.on('message', msg => {
     }
 
     if (msg.content == `${Prefix}Info.`) {
-        msg.channel.send(`:information_source: **Info**\nOS: 8E System 12\nCreators: <@493924131017064480> (xxSShadow) and <@707008755195314237> (Troy D. Moon)\nAntivirus: 8E Security Essentials V.12.8\nThis is an officially Licenced 8E Product.`)
+        msg.channel.send(`:information_source: **Info**\nOS: 8E System 12\nCreators: <@493924131017064480> (xxSShadow) and <@707008755195314237> (Ginger McFerren)\nAntivirus: 8E Security Essentials V.12.8\nThis is an officially Licenced 8E Product.`)
         console.info(`Info.`);
     }
 
@@ -94,7 +94,7 @@ Bot.on('message', msg => {
     }
 
     if (msg.content === `${Prefix}Ping.`) {
-        msg.author.send(`:ping_pong: **Ping**\nThis Device is: Troy's Laptop.\nLatency: ${Date.now() - msg.createdTimestamp}\nAPI Delay: ${Math.round(Bot.ws.ping)}\nJitter: N/A \nHeartbeat Ping: N/A`)
+        msg.author.send(`:ping_pong: **Ping**\nThis Device is: Gingers Laptop.\nLatency: ${Date.now() - msg.createdTimestamp}\nAPI Delay: ${Math.round(Bot.ws.ping)}\nJitter: N/A \nHeartbeat Ping: N/A`)
         console.info(`Ping.`);
     }
 
